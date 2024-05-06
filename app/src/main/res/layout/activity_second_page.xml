@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunlight_trees_landscape_forest_sunset_cityscape_9143_wallhere_com"
+    tools:context=".SecondPage" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="223dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/puppy_jack_russell___puppy_jack_russell_sitting_on_a_stump_in_the_summer_park" />
+
+    <Button
+        android:id="@+id/feedbtn"
+        android:layout_width="115dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="#E0AB82"
+        android:text="feed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="130dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#E0AB82"
+        android:text="play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cleanBtn"
+        android:layout_width="138dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="516dp"
+        android:backgroundTint="#E0AB82"
+        android:text="Clean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="367dp"
+        android:layout_height="399dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="93dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="gone" />
+
+    <VideoView
+        android:id="@+id/videoView3"
+        android:layout_width="359dp"
+        android:layout_height="411dp"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/videoView4"
+        android:layout_width="354dp"
+        android:layout_height="375dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="57dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/happyCounterTextView"
+        android:layout_width="147dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="664dp"
+        android:text="Happy: 50 / 50"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cleanCounterTextView"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="608dp"
+        android:text="Clean: 50 / 50"
+        android:textColor="#FFFDFD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hungerCounterTextView"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="616dp"
+        android:text="Hunger: 50 / 50"
+        android:textColor="#F3F1F1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
